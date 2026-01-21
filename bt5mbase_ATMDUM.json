@@ -1,0 +1,10019 @@
+{
+  "version": 8,
+  "name": "BT5M_pla",
+  "center": [
+    1.84021,
+    41.72623
+  ],
+  "zoom": 9,
+  "bearing": 0,
+  "pitch": 0,
+  "sources": {
+    "bt5m": {
+      "type": "vector",
+      "tiles": [
+        "https://betaserver.icgc.cat/tileserver3/tileserver.php/bt5m_stpropi/{z}/{x}/{y}.pbf"
+      ],
+      "maxzoom": 16,
+      "attribution": "Mapa &copy; <a href='https://www.icgc.cat'>Institut Cartogràfic i Geològic de Catalunya</a>"
+    }
+  },
+  "sprite": "https://betaserver.icgc.cat/vectortiles/sprites/maki",
+  "glyphs": "https://betaserver.icgc.cat/glyphs/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "interactive": true,
+      "id": "ILL01_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#F0EEEA",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "ILL01_pol",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "REC01_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#A0DBE9",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "REC01_pol",
+      "minzoom": 11,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "REC02_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#F7F4F2",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "REC02_pol",
+      "minzoom": 11,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "REC03_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#F0EEEA",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "REC03_pol",
+      "minzoom": 11,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "RAM01_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#F0EEEA",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "RAM01_pol",
+      "minzoom": 11,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "CES03_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#D4E8C8",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "CES03_pol",
+      "minzoom": 14,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "ELU02_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#D4E8C8",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "ELU02_pol",
+      "minzoom": 14,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "HIV01_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#D4E8C8",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "HIV01_pol",
+      "minzoom": 14,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "MOL11_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#F7F4F2",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "MOL11_pol",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "ARB01_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#D4E8C8",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "ARB01_pol",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "COB01_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#D4E8C8",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "COB01_pol",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "COB02_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#F7F4F2",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "COB02_pol",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "COB03_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#F0EEEA",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "COB03_pol",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "COB04_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#D4E8C8",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "COB04_pol",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "MAI01_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#A0DBE9",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "MAI01_pol",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "MAI03_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#A0DBE9",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "MAI03_pol",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "MAI07_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#A0DBE9",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "MAI07_pol",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "CNS01_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#F7F4F2",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "CNS01_pol",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "CNS03_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#F0EEEA",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "CNS03_pol",
+      "minzoom": 14,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "DIP01_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#F7F4F2",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "DIP01_pol",
+      "minzoom": 14,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "EDI01_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#F7F4F2",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "EDI01_pol",
+      "minzoom": 9,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "EDI02_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#F7F4F2",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "EDI02_pol",
+      "minzoom": 9,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "EDI03_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#F7F4F2",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "EDI03_pol",
+      "minzoom": 9,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "PEA01_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#F7F4F2",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "PEA01_pol",
+      "minzoom": 14,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "PRE01_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#F7F4F2",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "PRE01_pol",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "PRE03_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#F7F4F2",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "PRE03_pol",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "TOR01_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#F0EEEA",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "TOR01_pol",
+      "minzoom": 16,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "POU01_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#A0DBE9",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "POU01_pol",
+      "minzoom": 14,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "RAI01_pol",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#A0DBE9",
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "RAI01_pol",
+      "minzoom": 12,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "CNA01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#A0DBE9",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              0.35
+            ],
+            [
+              8,
+              0.4
+            ],
+            [
+              9,
+              0.45
+            ],
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "CNA01_lin",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "MAI01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#A0DBE9",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "MAI01_lin",
+      "minzoom": 11,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "MAI03_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#A0DBE9",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "MAI03_lin",
+      "minzoom": 11,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "MAI05_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#A0DBE9",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "MAI05_lin",
+      "minzoom": 11,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "MAI07_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#A0DBE9",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "MAI07_lin",
+      "minzoom": 11,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "POU01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#A0DBE9",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "POU01_lin",
+      "minzoom": 14,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "RAI01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#A0DBE9",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "RAI01_lin",
+      "minzoom": 13,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "CAN01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#A0DBE9",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "CAN01_lin",
+      "minzoom": 10,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "FLU01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#A0DBE9",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "FLU01_lin",
+      "minzoom": 10,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "FLU02_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#A0DBE9",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.5
+            ],
+            [
+              12,
+              0.5
+            ],
+            [
+              13,
+              0.5
+            ],
+            [
+              14,
+              0.5
+            ],
+            [
+              15,
+              0.5
+            ],
+            [
+              16,
+              0.5
+            ],
+            [
+              17,
+              0.5
+            ],
+            [
+              18,
+              0.5
+            ],
+            [
+              19,
+              0.5
+            ],
+            [
+              20,
+              0.5
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "FLU02_lin",
+      "minzoom": 10,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "PAR01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#D4E8C8",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "PAR01_lin",
+      "minzoom": 14,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "TAL01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#D4E8C8",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "TAL01_lin",
+      "minzoom": 14,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "TAM01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#80A7C3",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "TAM01_lin",
+      "minzoom": 15,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "TAM02_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#80A7C3",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "TAM02_lin",
+      "minzoom": 15,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "TAM04_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#80A7C3",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "TAM04_lin",
+      "minzoom": 15,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "TAM05_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#80A7C3",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "TAM05_lin",
+      "minzoom": 15,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "TAM07_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#80A7C3",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "TAM07_lin",
+      "minzoom": 15,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "CON01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "CON01_lin",
+      "minzoom": 15,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "AER01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              9,
+              0.45
+            ],
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "AER01_lin",
+      "minzoom": 9,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "CES01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "CES01_lin",
+      "minzoom": 14,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "CES02_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "CES02_lin",
+      "minzoom": 14,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "CNS01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              0.35
+            ],
+            [
+              8,
+              0.4
+            ],
+            [
+              9,
+              0.45
+            ],
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "CNS01_lin",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "CNS02_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "CNS02_lin",
+      "minzoom": 14,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "CNS03_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#80A7C3",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "CNS03_lin",
+      "minzoom": 14,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "DIP01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "DIP01_lin",
+      "minzoom": 14,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "EDI01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              0.3
+            ],
+            [
+              14,
+              0.4
+            ],
+            [
+              15,
+              0.5
+            ],
+            [
+              16,
+              0.6
+            ],
+            [
+              17,
+              0.7
+            ],
+            [
+              18,
+              0.8
+            ],
+            [
+              19,
+              0.9
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "EDI01_lin",
+      "minzoom": 13,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "EDI02_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              0.3
+            ],
+            [
+              14,
+              0.4
+            ],
+            [
+              15,
+              0.5
+            ],
+            [
+              16,
+              0.6
+            ],
+            [
+              17,
+              0.7
+            ],
+            [
+              18,
+              0.8
+            ],
+            [
+              19,
+              0.9
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "EDI02_lin",
+      "minzoom": 13,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "EDI03_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              0.3
+            ],
+            [
+              14,
+              0.4
+            ],
+            [
+              15,
+              0.5
+            ],
+            [
+              16,
+              0.6
+            ],
+            [
+              17,
+              0.7
+            ],
+            [
+              18,
+              0.8
+            ],
+            [
+              19,
+              0.9
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "EDI03_lin",
+      "minzoom": 13,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "ELU01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "ELU01_lin",
+      "minzoom": 13,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "ELU02_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "ELU02_lin",
+      "minzoom": 13,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "ESP01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "ESP01_lin",
+      "minzoom": 13,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "ESP02_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "ESP02_lin",
+      "minzoom": 13,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "HEL01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "HEL01_lin",
+      "minzoom": 14,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "HIV01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#D4E8C8",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "HIV01_lin",
+      "minzoom": 14,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "ILL01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "ILL01_lin",
+      "minzoom": 13,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "MOL01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              0.35
+            ],
+            [
+              8,
+              0.4
+            ],
+            [
+              9,
+              0.45
+            ],
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "MOL01_lin",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "MOL02_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              0.35
+            ],
+            [
+              8,
+              0.4
+            ],
+            [
+              9,
+              0.45
+            ],
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "MOL02_lin",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "MOL03_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              0.35
+            ],
+            [
+              8,
+              0.4
+            ],
+            [
+              9,
+              0.45
+            ],
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "MOL03_lin",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "MOL04_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              0.35
+            ],
+            [
+              8,
+              0.4
+            ],
+            [
+              9,
+              0.45
+            ],
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "MOL04_lin",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "MOL05_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              0.35
+            ],
+            [
+              8,
+              0.4
+            ],
+            [
+              9,
+              0.45
+            ],
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "MOL05_lin",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "MOL06_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              0.35
+            ],
+            [
+              8,
+              0.4
+            ],
+            [
+              9,
+              0.45
+            ],
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "MOL06_lin",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "MOL07_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              0.35
+            ],
+            [
+              8,
+              0.4
+            ],
+            [
+              9,
+              0.45
+            ],
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "MOL07_lin",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "MOL08_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#80A7C3",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              0.35
+            ],
+            [
+              8,
+              0.4
+            ],
+            [
+              9,
+              0.45
+            ],
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "MOL08_lin",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "MOL09_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              0.35
+            ],
+            [
+              8,
+              0.4
+            ],
+            [
+              9,
+              0.45
+            ],
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "MOL09_lin",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "MOL10_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              0.35
+            ],
+            [
+              8,
+              0.4
+            ],
+            [
+              9,
+              0.45
+            ],
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "MOL10_lin",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "MOL12_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              0.35
+            ],
+            [
+              8,
+              0.4
+            ],
+            [
+              9,
+              0.45
+            ],
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "MOL12_lin",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "MOL13_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              0.35
+            ],
+            [
+              8,
+              0.4
+            ],
+            [
+              9,
+              0.45
+            ],
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "MOL13_lin",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "MUR01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "MUR01_lin",
+      "minzoom": 15,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "OBR01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "OBR01_lin",
+      "minzoom": 14,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "PAU01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              15,
+              0.65
+            ],
+            [
+              16,
+              0.72
+            ],
+            [
+              17,
+              0.79
+            ],
+            [
+              18,
+              0.86
+            ],
+            [
+              19,
+              0.93
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "PAU01_lin",
+      "minzoom": 15,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "PRE01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              0.35
+            ],
+            [
+              8,
+              0.4
+            ],
+            [
+              9,
+              0.45
+            ],
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "PRE01_lin",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "PRE03_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              0.35
+            ],
+            [
+              8,
+              0.4
+            ],
+            [
+              9,
+              0.45
+            ],
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "PRE03_lin",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "PRE04_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              0.35
+            ],
+            [
+              8,
+              0.4
+            ],
+            [
+              9,
+              0.45
+            ],
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "PRE04_lin",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "REC01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#A0DBE9",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "REC01_lin",
+      "minzoom": 11,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "REC02_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#80A7C3",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "REC02_lin",
+      "minzoom": 11,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "REC03_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "REC03_lin",
+      "minzoom": 11,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "TAN01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "TAN01_lin",
+      "minzoom": 15,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "TAN02_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "TAN02_lin",
+      "minzoom": 15,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "TAN03_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#D4E8C8",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "TAN03_lin",
+      "minzoom": 15,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "TOR01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#80A7C3",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "TOR01_lin",
+      "minzoom": 16,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "TOR02_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#80A7C3",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "TOR02_lin",
+      "minzoom": 16,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "CRE01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              9,
+              0.45
+            ],
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "CRE01_lin",
+      "minzoom": 9,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "FER01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              9,
+              0.45
+            ],
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "FER01_lin",
+      "minzoom": 9,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "FUN01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              9,
+              0.45
+            ],
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "FUN01_lin",
+      "minzoom": 9,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "TCA01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              9,
+              0.45
+            ],
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "TCA01_lin",
+      "minzoom": 9,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "VIA16_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              11,
+              0.6
+            ],
+            [
+              12,
+              0.7
+            ],
+            [
+              13,
+              0.8
+            ],
+            [
+              14,
+              0.9
+            ],
+            [
+              15,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "VIA16_lin",
+      "minzoom": 11,
+      "maxzoom": 15
+    },
+    {
+      "interactive": true,
+      "id": "VIA21_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              0.3
+            ],
+            [
+              14,
+              0.4
+            ],
+            [
+              15,
+              0.5
+            ],
+            [
+              16,
+              0.6
+            ],
+            [
+              17,
+              0.7
+            ],
+            [
+              18,
+              0.8
+            ],
+            [
+              19,
+              0.9
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "VIA21_lin",
+      "minzoom": 13,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "VIA04_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              0.35
+            ],
+            [
+              8,
+              0.4
+            ],
+            [
+              9,
+              0.45
+            ],
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "VIA04_lin",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "VIA12_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#80A7C3",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              0.35
+            ],
+            [
+              8,
+              0.4
+            ],
+            [
+              9,
+              0.45
+            ],
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "VIA12_lin",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "VIA14_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#80A7C3",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              0.35
+            ],
+            [
+              8,
+              0.4
+            ],
+            [
+              9,
+              0.45
+            ],
+            [
+              10,
+              0.5
+            ],
+            [
+              11,
+              0.55
+            ],
+            [
+              12,
+              0.6
+            ],
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "VIA14_lin",
+      "minzoom": 7,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "VIA19_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              15,
+              0.6
+            ],
+            [
+              16,
+              0.68
+            ],
+            [
+              17,
+              0.76
+            ],
+            [
+              18,
+              0.84
+            ],
+            [
+              19,
+              0.92
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "VIA19_lin",
+      "minzoom": 15,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "PAS01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "PAS01_lin",
+      "minzoom": 14,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "PEA01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "PEA01_lin",
+      "minzoom": 14,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "PON01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "PON01_lin",
+      "minzoom": 13,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "PON02_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              0.65
+            ],
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "PON02_lin",
+      "minzoom": 13,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "TUN01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#CCDAE4",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "TUN01_lin",
+      "minzoom": 14,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "ELE01_lin",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#80A7C3",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              0.7
+            ],
+            [
+              15,
+              0.75
+            ],
+            [
+              16,
+              0.8
+            ],
+            [
+              17,
+              0.85
+            ],
+            [
+              18,
+              0.9
+            ],
+            [
+              19,
+              0.95
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "source": "bt5m",
+      "source-layer": "ELE01_lin",
+      "minzoom": 14,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "TOR02_poi",
+      "filter": [
+        "==",
+        "$type",
+        "Point"
+      ],
+      "type": "symbol",
+      "layout": {
+        "visibility": "visible",
+        "icon-image": "square-stroked-15",
+        "icon-size": {
+          "base": 1,
+          "stops": [
+            [
+              16,
+              0.25
+            ],
+            [
+              17,
+              0.44
+            ],
+            [
+              18,
+              0.63
+            ],
+            [
+              19,
+              0.81
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "paint": {
+        "icon-color": "#FF0000",
+        "icon-opacity": 1
+      },
+      "source": "bt5m",
+      "source-layer": "TOR02_poi",
+      "minzoom": 16,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "CNS03_poi",
+      "filter": [
+        "==",
+        "$type",
+        "Point"
+      ],
+      "type": "symbol",
+      "layout": {
+        "visibility": "visible",
+        "icon-image": "circle-stroked-15",
+        "icon-size": {
+          "base": 1,
+          "stops": [
+            [
+              15,
+              0.25
+            ],
+            [
+              16,
+              0.4
+            ],
+            [
+              17,
+              0.55
+            ],
+            [
+              18,
+              0.7
+            ],
+            [
+              19,
+              0.85
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "paint": {
+        "icon-color": "#FF0000",
+        "icon-opacity": 1
+      },
+      "source": "bt5m",
+      "source-layer": "CNS03_poi",
+      "minzoom": 15,
+      "maxzoom": 21
+    },
+    {
+      "interactive": true,
+      "id": "VER01_poi",
+      "filter": [
+        "==",
+        "$type",
+        "Point"
+      ],
+      "type": "symbol",
+      "layout": {
+        "visibility": "visible",
+        "icon-image": "triangle-stroked-15",
+        "icon-size": {
+          "base": 1,
+          "stops": [
+            [
+              16,
+              0.25
+            ],
+            [
+              17,
+              0.44
+            ],
+            [
+              18,
+              0.63
+            ],
+            [
+              19,
+              0.81
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        }
+      },
+      "paint": {
+        "icon-color": "#000000",
+        "icon-opacity": 1
+      },
+      "source": "bt5m",
+      "source-layer": "VER01_poi",
+      "minzoom": 16,
+      "maxzoom": 21
+    }
+  ]
+}
